@@ -1,21 +1,27 @@
+
 .tabla-contenido {
     width: 100%;
-    background-color: #cff5b9;
-}
-.contenido-tabla{
-    height: 100%;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    padding-left: 50px;
 }
 
-.encabezado-curso{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #5fb62d;
-    letter-spacing: 1px;
+.contenido-tabla{
+    height: 100%;
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+    padding-left: 10vh;
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 1px;
+   
+}
+.frist{
+    text-align: right;
+}
+
+.encabezado{
     text-transform: uppercase;
     outline: none;
+    font-family:sans-serif;
+    text-align: center;
 }
 #titulo-principal .titulo{
     font-size: 60px;
@@ -25,34 +31,33 @@
     padding-top: 20px;
 }
 #titulo-principal .subtitulo{
-    font-size: 40px;
+    font-size: 10vh;
     font-weight: 600;
     font-style: italic;
     text-align: center;
     padding-bottom: 20px;
 }
 .titulos{
-    background-color: coral;
+    background-color:#baf19a;
     border-radius: 0px 200px 171px 197px;
 -moz-border-radius: 0px 200px 171px 197px;
 -webkit-border-radius: 0px 200px 171px 197px;
 border: 0px solid #000000;
 }
 
-#grilla-curso{
-    background-color: aquamarine;
-    
-}
 .contenido-tabla{
    text-align: center;
+   vertical-align: center;
+   font-family:sans-serif;
 }
 
 .contenido-tabla:hover{
     cursor: pointer;
-    background: #75a15b;
-    text-transform: uppercase;
+    background: #5b96a1;
     transition: all 0.3s;
-}
+    transform: translateY(-5px);}
+
+
 
 
 
