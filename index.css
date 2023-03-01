@@ -71,8 +71,11 @@ border: 0px solid #000000;
         transform: translateY(1em);
       }
       
-      .img__wrap:hover .img__description {
+      .img__wrap:hover .img__description .link{
         transform: translateY(0);
+      }
+      .link{
+        text-decoration: none;
       }
 
 
