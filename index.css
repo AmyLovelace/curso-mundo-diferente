@@ -71,12 +71,15 @@ border: 0px solid #000000;
         transform: translateY(1em);
       }
       
-      .img__wrap:hover .img__description .link{
+      .img__wrap:hover .img__description {
         transform: translateY(0);
+
       }
       .link{
         text-decoration: none;
+        color: #fff;
       }
+      
 
 
 
