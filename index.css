@@ -1,25 +1,15 @@
 
-.tabla-contenido {
-    width: 100%;
-}
-
 .contenido-tabla{
-    height: 100%;
-    padding-bottom: 15vh;
-    padding-top: 15vh;
-    padding-left: 10vh;
+    height: 100%vh;
+    width: auto;
    text-transform: uppercase;
    font-weight: 600;
    letter-spacing: 1px;
-   
-}
-.frist{
-    text-align: right;
 }
 
-.encabezado{
+.table-info{
     text-transform: uppercase;
-    outline: none;
+
     font-family:sans-serif;
     text-align: center;
 }
@@ -45,17 +35,47 @@
 border: 0px solid #000000;
 }
 
-.contenido-tabla{
-   text-align: center;
+.col{
+   text-align: left;
    vertical-align: center;
    font-family:sans-serif;
+   position: relative;
 }
 
-.contenido-tabla:hover{
-    cursor: pointer;
-    background: #5b96a1;
-    transition: all 0.3s;
-    transform: translateY(-5px);}
+
+    .img__description_layer {
+       position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(36, 62, 206, 0.6);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+      }
+      
+      .col:hover .img__description_layer {
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      .img__description {
+        transition: .2s;
+        transform: translateY(1em);
+      }
+      
+      .img__wrap:hover .img__description {
+        transform: translateY(0);
+      }
+
+
 
 
 
