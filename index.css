@@ -1,15 +1,8 @@
 
-.contenido-tabla{
-    height: 100%;
-    width: auto;
-   text-transform: uppercase;
-   font-weight: 600;
-   letter-spacing: 1px;
-}
 .img-std{
     height: 10em;      
     width:10em;
-    align-items: flex-start;            
+           
     }
 
 .img-logo{
@@ -17,24 +10,30 @@
     width:5rem;
 
 }
+.col-3{
+    text-align: left;
+    font-weight: 700;
+    font-family:serif;
+}
 
 .table-info{
     text-transform: uppercase;
-
     font-family:sans-serif;
     text-align: center;
+    
 }
 #titulo-principal .titulo{
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 #titulo-principal .subtitulo{
     font-size: 5vw;
     font-weight: 600;
-    font-style: italic;
+    font-style:italic;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -59,7 +58,7 @@ border: 0px solid #000000;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(36, 62, 206, 0.6);
+    background: rgb(42, 64, 189);
     color: #fff;
     visibility: hidden;
     opacity: 0;
@@ -86,6 +85,8 @@ border: 0px solid #000000;
 }
 .link{
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #fff;
 }
 
