@@ -14,13 +14,12 @@
     text-align: left;
     font-weight: 700;
     font-family:serif;
+    padding-top: 4em;
 }
 
 .table-info{
     text-transform: uppercase;
-    font-family:sans-serif;
-    text-align: center;
-    
+    font-family:sans-serif;   
 }
 #titulo-principal .titulo{
     font-size: 5vw;
@@ -42,7 +41,7 @@
     border-radius: 0px 200px 171px 197px;
 -moz-border-radius: 0px 200px 171px 197px;
 -webkit-border-radius: 0px 200px 171px 197px;
-border: 0px solid #000000;
+border: 3px solid #4b992c;
 }
 
 .col{
@@ -58,7 +57,7 @@ border: 0px solid #000000;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgb(42, 64, 189);
+    background: rgba(42, 64, 189, 0.473);
     color: #fff;
     visibility: hidden;
     opacity: 0;
