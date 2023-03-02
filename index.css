@@ -12,12 +12,11 @@
 }
 .col-3{
     text-align: left;
-    font-weight: 700;
+    font-weight: 600;
     padding-top: 4em;
 }
 
 .table-info{
-    text-transform: uppercase;
     font-family:sans-serif;   
 }
 #titulo-principal .titulo{
