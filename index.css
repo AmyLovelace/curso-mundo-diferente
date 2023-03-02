@@ -12,6 +12,12 @@
     align-items: flex-start;            
     }
 
+.img-logo{
+    height: 5rem;      
+    width:5rem;
+
+}
+
 .table-info{
     text-transform: uppercase;
 
