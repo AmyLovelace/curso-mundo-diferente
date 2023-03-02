@@ -1,11 +1,16 @@
 
 .contenido-tabla{
-    height: 100%vh;
+    height: 100%;
     width: auto;
    text-transform: uppercase;
    font-weight: 600;
    letter-spacing: 1px;
 }
+.img-std{
+    height: 10em;      
+    width:10em;
+    align-items: flex-start;            
+    }
 
 .table-info{
     text-transform: uppercase;
@@ -14,14 +19,14 @@
     text-align: center;
 }
 #titulo-principal .titulo{
-    font-size: 60px;
+    font-size: 7vw;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
 }
 #titulo-principal .subtitulo{
-    font-size: 10vh;
+    font-size: 5vw;
     font-weight: 600;
     font-style: italic;
     text-align: center;
@@ -42,43 +47,43 @@ border: 0px solid #000000;
    position: relative;
 }
 
+ .img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(36, 62, 206, 0.6);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    }
+      
+.col:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+}
+      
+.img__description {
+    transition: .2s;
+    transform: translateY(1em);
+}
+      
+.img__wrap:hover .img__description {
+    transform: translateY(0);
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+ 
 
-    .img__description_layer {
-       position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(36, 62, 206, 0.6);
-        color: #fff;
-        visibility: hidden;
-        opacity: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-        /* transition effect. not necessary */
-        transition: opacity .2s, visibility .2s;
-      }
-      
-      .col:hover .img__description_layer {
-        visibility: visible;
-        opacity: 1;
-      }
-      
-      .img__description {
-        transition: .2s;
-        transform: translateY(1em);
-      }
-      
-      .img__wrap:hover .img__description {
-        transform: translateY(0);
-
-      }
-      .link{
-        text-decoration: none;
-        color: #fff;
-      }
       
 
 
