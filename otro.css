@@ -1,0 +1,15 @@
+.col{
+    background-color: aqua;
+}
+.row{
+    background-color: blueviolet;
+}
+#header{
+    background-color: chartreuse;
+}
+#logos{
+    background-color: crimson;
+}
+.col-3{
+    background-color: coral;
+}
