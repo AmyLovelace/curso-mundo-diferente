@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+nav a{
+    color: #FFF !important;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+.card-img-top {
+    /* object-fit: cover; */
+}
+
+
+#jumbotron{
+    background-image: url("https://www.diarioconstitucional.cl/wp-content/uploads/2021/08/V3EZGSCRDNGM5OBOPJ5O3VHEBY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 175px 100px 250px 100px !important;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.5);
+}
