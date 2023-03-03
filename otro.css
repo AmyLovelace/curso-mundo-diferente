@@ -1,15 +1,46 @@
-.col{
-    background-color: aqua;
+
+body {
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: slategray;
+    background-size:75px 100px;
+  }
+
+  .logos{
+    position: relative;
+  }
+  .img-fluid{
+    position: absolute;
+    width: 10vw ;
+    height: 10vh;
+  }
+  #bhp{
+   
+    left: 50em;
+    
+  }
+  #md{
+    left: 20em;
+  }
+
+  #header{
+    text-align: center;
+  }
+  
+.titulo{
+    position: relative;
 }
-.row{
-    background-color: blueviolet;
-}
-#header{
-    background-color: chartreuse;
-}
-#logos{
-    background-color: crimson;
-}
-.col-3{
-    background-color: coral;
-}
+  
+ #sub{
+    position: absolute;
+    left: 29em;
+ }
+ #mundo{
+    position: absolute;
+    left: 12em;
+ }
+
+
+ 
+ 
