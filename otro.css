@@ -26,6 +26,7 @@ body {
 
   #header{
     text-align: center;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255);
   }
   
 .titulo{
@@ -35,11 +36,20 @@ body {
  #sub{
     position: absolute;
     left: 29em;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255);
  }
  #mundo{
     position: absolute;
     left: 12em;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255);
  }
+ 
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
 
 
  
