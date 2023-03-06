@@ -21,22 +21,27 @@ footer {
 #bhp ,
 #mundodiferente{
   border-radius: 10px 100px / 120px;
+}
+
+
+
   
-}
-
-
-.logos{
-  position: absolute;
-
-
-}
-#bhp{
-  position: relative;
-  left:25em;
-  right:5em;
-  transition: all 0.3s;
+ .titulo{
+  text-align: justify;
+   text-align: center;
   }
-  
+
+button.accordion-button.collapsed{
+  background-color: #5da4c5;
+  color: #FFF;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+nav{
+  background-color: #229c8c;
+}
+
 
 
 

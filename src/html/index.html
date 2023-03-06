@@ -15,7 +15,7 @@
     <title>Lengua de señas</title>
   </head>
   <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-lg navbar-expand-md bg-info ps-5">
+    <nav class="navbar navbar-expand-lg navbar-expand-md ps-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Inicio</a>
         <button
@@ -32,10 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Contenidos</a>
+              <a class="nav-link" href="#accordionExample">Contenidos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#footer">Contacto</a>
             </li>
           </ul>
         </div>
@@ -43,9 +43,9 @@
     </nav>
 
     <div class="container-fluid p-5 text-white" id="jumbotron">
-      <h1>Curso Lengua de Señas</h1>
-      <h2>asincrónico</h2>
-      <div class="logos">
+      <h1 class="titulo">Curso Lengua de Señas</h1>
+      <h2 class="titulo">asincrónico</h2>
+      <div class="container-fluid">
         <p>
         <img src="/mundodiferentecurso/legacy/archivos/mundodiferentelogo.jpeg"  alt="" class="img-fluid" id="mundodiferente">
         <img src="/mundodiferentecurso/legacy/archivos/bhplogo.png" alt="" class="img-fluid" id="bhp">
@@ -674,7 +674,7 @@
 
     <!-- FOOTER -->
 
-    <div class="container">
+    <div class="container" id="footer">
       <footer
         class="w-100 d-flex flex-wrap justify-content-between align-items-center border-top"
       >
@@ -684,20 +684,25 @@
         </p>
 
         <a
-          href="/"
-          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        href="https://elearning.mundodiferente.cl/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark "
         >
+        
+        
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap" />
           </svg>
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          <li>
+
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">Features</a>
+            <a href="#" class="nav-link px-2 text-muted">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#accordionExample" class="nav-link px-2 text-muted">Contenido</a>
           </li>
         </ul>
       </footer>
