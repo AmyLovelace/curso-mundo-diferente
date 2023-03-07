@@ -116,4 +116,47 @@ div.carousel-indicators{
 
 }
 
+/*  <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              4) Familia
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="card-group">
+                <div class="card mx-auto" style="max-width: 25rem;">
+                  <img
+                    src="https://res.cloudinary.com/mundo/image/upload/c_scale,w_412,h_233,dpr_2/f_jpg,q_auto:good/v1546030686/abuelos-shutterstock_dr9a96.jpg?_i=AA"
+                    class="card-img-top img-responsive "
+                    alt="..."
+                  />
+                  <div class="card-body mx-auto">
+                    <h5 class="card-title">Familia y Parentescos</h5>
+                    <p class="card-text">
+                      Aquí podrás revisar las señas principales de los diversos 
+                      parentescos de familia.
+                    </p>
+                    <a href="https://www.youtube.com/watch?app=desktop&v=XbpSjXRVQzo&feature=youtu.be&ab_channel=MundoDiferenteCapacitaci%C3%B3n"class="btn btn-primary">Click aquí</a>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          */
+
  
