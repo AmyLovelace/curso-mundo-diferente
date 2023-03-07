@@ -63,5 +63,9 @@ div.carousel-indicators{
   background-color: #229c8c91;
 }
 
+.img-responsive{
+  width:100%;
+  height:25%;
+}
 
  
