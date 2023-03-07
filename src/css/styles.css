@@ -1,5 +1,10 @@
 body {
   height: 100vh;
+  background-image:url(https://media.istockphoto.com/id/511572637/es/foto/fondo-de-hielo.jpg?s=612x612&w=0&k=20&c=yqWSL4YyQsMH19VBmk91KdfAKZoVDPy-xIVVEs6zLlU=) ;
+  object-fit:cover;
+  background-size:100%;
+  background-attachment: fixed;
+
 }
 
 * {
@@ -10,12 +15,21 @@ body {
 }
 
 nav a{
-    color: #FFF !important;
+    color: #ffffff !important;
 }
 
 footer {
     margin-top: 150px;
+    color:#000;
+    text-decoration: none;
 }
+footer .nav-link{
+  color: #000;
+  font-weight: 500;
+}
+
+
+
 
 
 
@@ -24,7 +38,17 @@ footer {
   border-radius: 10px 100px / 120px;
   height:10vh;
   width:10vw;
+  filter: grayscale(70%);
+  transition: all 0.3s;
+  
 }
+
+#bhp:hover,
+#mundodiferente:hover{
+  filter: grayscale(0%);
+  transform: translateY(5);
+}
+
 #Contenidos{
   padding-left: 40vw;
 
@@ -35,21 +59,23 @@ footer {
   
  .titulo{
    text-align: center;
-   font-size: 6vw ;
-   font-style: oblique;
-
+   font-size: 6vw;
+   color:#ffdac9;
+   text-shadow: 2px 2px 0px #3e266b, 5px 4px 0px rgba(0,0,0,0.15);
 
   }
 
 button.accordion-button.collapsed{
-  background-color: #5da4c5;
+  background-color: #3c9e51bb;
   color: #FFF;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 nav {
-  background-color: #229c8c;
+  background-color:rgba(31, 155, 52, 0.5);
+  
   font-size:2rem;
   font-weight: 400;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,17 +84,23 @@ navbar-brand{
   font-size:1rem;
 }
 
+#MOODLE{
+  color: #000;
+  font-weight: 500;
+  
+}
 
 
 #jumbotron{
     background-image: url("https://www.diarioconstitucional.cl/wp-content/uploads/2021/08/V3EZGSCRDNGM5OBOPJ5O3VHEBY.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
-    padding-top: 8rem;
-    padding-bottom:8rem;
-    align-items: center;
+    background-size:100vw;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+    box-shadow: inset 0 0 0 2000px rgba(173, 114, 114, 0.575);
 
-    box-shadow: inset 0 0 0 2000px rgba(67, 248, 113, 0.5);
+
+    
 }
 
 span.carousel-control-prev-icon,span.carousel-control-next-icon{
